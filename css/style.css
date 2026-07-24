@@ -1,3 +1,7 @@
+* {
+  font-family: system-ui sans-serif;
+}
+
 body {
   padding: 50px;
   line-height: 1.8;
@@ -62,5 +66,9 @@ iframe {
 
   .profile {
     padding-top: 30px;
+  }
+
+  .update {
+    height: 90vh;
   }
 }
