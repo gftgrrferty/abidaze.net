@@ -5,82 +5,20 @@ body {
   margin: 0 auto;
 }
 
-.nakami {
-  text-align: center;
+.hstack {
+  display: flex;
 }
 
-.nakami > h1 {
-  float: left;
-  width: 50%;
-  text-align: left;
-  margin-bottom: 0;
+.image {
+  width: 200px;
+  margin: auto auto 0;
 }
 
-.nakami > .oi {
-  float: left;
-  width: 50%;
-  text-align: left;
-  clear: left;
-  margin-top: 0;
-}
-
-.nakami > ul:first-of-type {
-  float: left;
-  width: 50%;
-  text-align: left;
-  clear: left;
-}
-
-.gazo {
-  float: right;
-  width: 40%;
-}
-
-.gazo img {
+.image img {
   width: 100%;
   border: 1px solid black;
 }
 
-.yotei, .suki, .rinku-area {
-  clear: both;
-  padding-top: 80px;
-  text-align: center;
-  width: 100%;
-}
-
-.hako1, .hako2, .hako3 {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 20px 10px 20px 40px;
-  margin: 10px;
-  width: 280px;
-  vertical-align: top;
-  text-align: left;
-  background-color: white;
-  box-sizing: border-box;
-}
-
-.list-nanika {
-  list-style: none;
-  padding: 0;
-  display: inline-block;
-  text-align: center;
+.update {
   margin: 0 auto;
-}
-
-.list-nanika li {
-  border: none;
-  background: none;
-  padding: 10px 0;
-  width: auto;
-  display: block;
-  text-align: center;
-}
-
-.rinku-area a {
-  margin: 0 10px;
-}
-
-img {
-  max-width: 100%;
 }

@@ -1,62 +1,70 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>あびあびサイト</title>
   <link rel="stylesheet" href="./css/style.css">
-<meta property="og:title" content="あびの自己紹介ページ">
-<meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta property="og:title" content="あびの自己紹介ページ">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
 </head>
+
 <body>
-  <div class="main">
-    <h1>こんにちは！</h1>
-    <p class="oi">私はウェブサイトを作り始めたばっかりの初心者🔰です。</p>
-    <ul>
-      <li>名前：あび</li>
-      <li>趣味：ゲームくらいしか思い浮かばない</li>
-      <li>目標：1人でアプリとかすごいウェブサイトを作ること!!</li>
-    </ul>
-    <div class="gazo">
-      <img id="profile_image" src="./img/VRChat_2026-05-29_19-59-43.183_1920x1080.png" alt="プロフィール画像">
-    </div>
-
-    <div class="yotei">
-      <h2>やりたいこと</h2>
-      <div class="hako1">
-        <h3>Swift UI</h3>
-        <p>いつかIOSのアプリを作ってApp Storeに公開したい!!</p>
-      </div>
-      <div class="hako2">
-        <h3>物作り</h3>
-        <p>キーボードを作りたい。PCを組み立てたい</p>
-      </div>
-      <div class="hako3">
-        <h3>Unity/Blender</h3>
-        <p>VRChatでいつか自分のアバターを作りたいから!!</p>
-      </div>
-    </div>
-
-    <div class="suki">
-      <h2>好きなもの</h2>
-      <ul class="list-nanika">
-        <li>たぶん何か作ること</li>
-        <li>ゲームで遊ぶこと</li>
-        <li>新しいことを学ぶこと</li>
+  <div class="hstack">
+    <div>
+      <h1>こんにちは！</h1>
+      <p class="me">私はウェブサイトを作り始めたばっかりの初心者🔰です。</p>
+      <ul>
+        <li>名前：あび</li>
+        <li>趣味：ゲームくらいしか思い浮かばない</li>
+        <li>目標：1人でアプリとかすごいウェブサイトを作ること!!</li>
       </ul>
     </div>
-
-    <div class="rinku-area">
-      <h2>リンク</h2>
-      <a href="https://x.com/gftgrrferty">X</a>
-      <a href="https://vrchat.com/home/user/usr_2a8c5b84-7c69-43e8-9bdc-c8688bb40db4">VRChat</a>
-      <a href="https://github.com/gftgrrferty">GitHub</a>
-      <a href="https://gftgrrferty.net">ノート</a>
+    <div class="image">
+      <img id="profile_image" src="./img/VRChat_2026-05-29_19-59-43.183_1920x1080.png" alt="プロフィール画像">
     </div>
   </div>
-  <div class="update">
-    <h2>更新情報</h2>
-    <iframe src="https://gftgrrferty.net/feed/" frameborder="0"></iframe>
+  <div class="hstack">
+    <div class="main">
+      <div class="todo">
+        <h2>やりたいこと</h2>
+        <div class="box1">
+          <h3>Swift UI</h3>
+          <p>いつかIOSのアプリを作ってApp Storeに公開したい!!</p>
+        </div>
+        <div class="box2">
+          <h3>物作り</h3>
+          <p>キーボードを作りたい。PCを組み立てたい</p>
+        </div>
+        <div class="box3">
+          <h3>Unity/Blender</h3>
+          <p>VRChatでいつか自分のアバターを作りたいから!!</p>
+        </div>
+      </div>
+
+      <div class="like">
+        <h2>好きなもの</h2>
+        <ul class="list-like">
+          <li>たぶん何か作ること</li>
+          <li>ゲームで遊ぶこと</li>
+          <li>新しいことを学ぶこと</li>
+        </ul>
+      </div>
+
+      <div class="link-area">
+        <h2>リンク</h2>
+        <a href="https://x.com/gftgrrferty">X</a>
+        <a href="https://vrchat.com/home/user/usr_2a8c5b84-7c69-43e8-9bdc-c8688bb40db4">VRChat</a>
+        <a href="https://github.com/gftgrrferty">GitHub</a>
+        <a href="https://gftgrrferty.net">ノート</a>
+      </div>
+    </div>
+    <div class="update">
+      <h2>更新情報</h2>
+      <iframe src="https://gftgrrferty.net/feed/" frameborder="0"></iframe>
+    </div>
   </div>
   <script src="./script/click.js"></script>
 </body>
+
 </html>
