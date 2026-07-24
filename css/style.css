@@ -21,4 +21,9 @@ body {
 
 .update {
   margin: 0 auto;
+  height: auto;
+}
+
+iframe {
+  height: 100%;
 }
