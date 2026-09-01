@@ -4,7 +4,7 @@
 
   profileImage.addEventListener("click", function () {
     if (flag) {
-      profileImage.src = "./img/kaguyabaka.png";
+      profileImage.src = "./img/kaguya-baka.png";
       flag = false;
     } else {
       profileImage.src = "./img/mafuyu-baka.png";
