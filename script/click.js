@@ -7,7 +7,7 @@
       profileImage.src = "./img/kaguya-baka.png";
       flag = false;
     } else {
-      profileImage.src = "./img/mafuyu-baka.png";
+      profileImage.src = "./img/kaguya-pink.png";
       flag = true;
     }
   });
