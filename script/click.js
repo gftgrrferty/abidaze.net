@@ -4,10 +4,10 @@
 
   profileImage.addEventListener("click", function () {
     if (flag) {
-      profileImage.src = "./img/kaguya-baka.png";
+      profileImage.src = "./img/kaguya-pink.png";
       flag = false;
     } else {
-      profileImage.src = "./img/kaguya-pink.png";
+      profileImage.src = "./img/kaguya-baka.png";
       flag = true;
     }
   });
